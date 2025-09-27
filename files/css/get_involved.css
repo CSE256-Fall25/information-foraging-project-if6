@@ -4,3 +4,28 @@
     background-size: 100% 900px;
     background-image: url("https://nurseryschool.wustl.edu/files/2017/09/170914_jjn_nursery_school_008.jpg");
 }
+
+.individual-staff-member {
+    padding: 1.5em;
+    border-width: 1px;
+    border-color: #eee;
+    border-style: solid;
+    width: 100%;
+    margin-bottom: 1.5em;
+}
+
+.individual-staff-member,
+.individual-staff-member-inner-div {
+    overflow: auto;
+    clear: both;
+}
+
+.individual-staff-member-inner-div img {
+    float: left;
+    margin-right: 2em;
+}
+
+.individual-staff-member-data {
+    float: left;
+    overflow-wrap: normal;
+}

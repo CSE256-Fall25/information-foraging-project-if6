@@ -24,3 +24,25 @@ main li {
 .classroom p {
     font-size: 1.15em;
 }
+
+main ul {
+    padding-top: 10px;
+    margin-left: 1.5em;
+}
+
+main li {
+    color: rgb(85, 85, 85);
+    display: list-item;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    height: 20px;
+    line-height: 10px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: disc;
+    margin-bottom: 10px;
+}
+
+#mini-bullet{
+    margin-top: -5px;
+}

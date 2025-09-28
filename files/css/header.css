@@ -5,9 +5,17 @@ header {
 #wustl-branding {
     background-color: #a51417;
     height: 2.625rem;
-    overflow: hidden;
+    overflow: visible;
     padding-left: 4%;
     padding-top: 7px;
+}
+
+header[role=banner]{
+    position: sticky;
+    top: 40px;
+    z-index: 999;
+    background-color: #f9f9f9;
+    overflow: visible;
 }
 
 #main-menu-container {

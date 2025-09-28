@@ -48,7 +48,8 @@ export class SubmitForm {
                 const queryString = window.location.search;
                 const urlParams = new URLSearchParams(queryString);
                 data.data.task = urlParams.get("tag")
-                data.data.response = document.getElementById("text-area").value
+                // data.data.response = document.getElementById("text-area").value
+                document.getElementById('text-area')?.setAttribute('value', 'something');
 
                 console.log("\n\nDATA FOR TASK: " + data.data.task + "\n")
                 console.log(JSON.stringify(data));

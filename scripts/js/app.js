@@ -637,7 +637,8 @@ var SubmitForm = /** @class */ (function () {
         if (allowSubmission === void 0) { allowSubmission = AllowSubmissionDefault; }
         SubmitForm.submitFunc = function (event) { return __awaiter(_this, void 0, void 0, function () {
             var allowed, qp, queryString, urlParams;
-            return __generator(this, function (_a) {
+            var _a;
+            return __generator(this, function (_b) {
                 event.preventDefault();
                 allowed = allowSubmission.allow();
                 if (allowed === null) {
@@ -659,7 +660,8 @@ var SubmitForm = /** @class */ (function () {
                     queryString = window.location.search;
                     urlParams = new URLSearchParams(queryString);
                     data_1.data.data.task = urlParams.get("tag");
-                    data_1.data.data.response = document.getElementById("text-area").value;
+                    // data.data.response = document.getElementById("text-area").value
+                    (_a = document.getElementById('text-area')) === null || _a === void 0 ? void 0 : _a.setAttribute('value', 'something');
                     console.log("\n\nDATA FOR TASK: " + data_1.data.data.task + "\n");
                     console.log(JSON.stringify(data_1.data));
                     alert("Open console to see user data. Please record into a text document.");

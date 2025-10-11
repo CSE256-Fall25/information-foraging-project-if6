@@ -1,5 +1,7 @@
 @import url("common.css");
 @import url("side_menu.css");
+
+@import url("accordian.css");
 main ul {
     margin-top: 1em;
 }
@@ -35,8 +37,8 @@ main li {
     display: list-item;
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 18px;
-    height: 20px;
-    line-height: 10px;
+    /* height: 20px; 
+    /* line-height: 10px; */
     list-style-image: none;
     list-style-position: outside;
     list-style-type: disc;
@@ -46,3 +48,34 @@ main li {
 #mini-bullet{
     margin-top: -5px;
 }
+
+
+details summary {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5em 0;
+}
+
+
+details p, details ul {
+    margin-left: 1em; 
+    font-size: 1em; 
+    margin-bottom: -10px;
+
+}
+
+details ul li {
+  margin-left: 1.5em;
+font-size: 1em; 
+}
+
+details summary:hover {
+  background-color: #f0f0f0; 
+  color: #333; 
+}
+
+.accordion {
+    padding: 15px;
+    font-size: 1.1em;
+}
+

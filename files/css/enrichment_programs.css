@@ -21,3 +21,8 @@
 .section-dropdown[open] summary {
     border-bottom: 1px solid #eee;
 }
+
+.link-list a {
+    color: #d51417;
+    text-decoration: none;
+}

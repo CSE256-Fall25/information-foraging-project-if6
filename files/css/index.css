@@ -45,14 +45,13 @@
 
 #visit-our-school p {
     text-align: center;
-    margin-top: 0.2em;
-    margin-bottom: 2em;
     font-size: 1.25em;
 }
 
 #visit-our-school a {
-    color: #a51417;
+    color: white;
     border: #a51417;
+    background-color: #a51417;
     border-width: 2px;
     border-radius: 6px;
     border-style: solid;

@@ -25,11 +25,9 @@ td {
 }
 
 .schedule-chart {
-    display: grid;
-    gap: 1.5rem;
-    max-width: 500px;
-    margin: 2rem auto;
-    padding: 1.5rem;
+    display: flex;
+    align-items: center;         
+    justify-content: space-between; 
     background: #fdfdfd;
     border-radius: 12px;
     font-family: "Inter", system-ui, sans-serif;
